@@ -8,9 +8,9 @@ export const songs: Song[] = [
     genre: 'nostalgic acoustic folk',
     coverUrl: 'https://cdn2.suno.ai/bcc7137c-4b55-404d-a2dc-baacebab0d4d_63985270.jpeg',
     audioUrl: 'https://cdn1.suno.ai/9574d25d-b11e-4f4d-a2c1-435fdc6299af.mp3',
-    duration: 221,
-    plays: 0,
-    likes: 0
+    duration: 120,
+    plays: 11014,
+    likes: 9
   },
   {
     id: '2',
