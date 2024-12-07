@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Song } from '../types/music';
+import { incrementPlayCount } from '../utils/storage';
 
 export const useAudioPlayer = () => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -7,6 +8,7 @@ export const useAudioPlayer = () => {
   const [currentTime, setCurrentTime] = useState(0);
   const [currentSong, setCurrentSong] = useState<Song | null>(null);
   const [volume, setVolume] = useState(1);
+  const playStartTimeRef = useRef<number | null>(null);
 
   useEffect(() => {
     if (!audioRef.current) {
@@ -16,12 +18,31 @@ export const useAudioPlayer = () => {
       audioRef.current.addEventListener('timeupdate', () => {
         if (audioRef.current) {
           setCurrentTime(audioRef.current.currentTime);
+          
+          // Increment play count after 5 seconds of playback
+          if (
+            playStartTimeRef.current && 
+            audioRef.current.currentTime - playStartTimeRef.current >= 5 &&
+            currentSong
+          ) {
+            incrementPlayCount(currentSong.id);
+            playStartTimeRef.current = null; // Reset to prevent multiple increments
+          }
         }
       });
 
       audioRef.current.addEventListener('ended', () => {
         setIsPlaying(false);
         setCurrentTime(0);
+        playStartTimeRef.current = null;
+      });
+
+      audioRef.current.addEventListener('play', () => {
+        playStartTimeRef.current = audioRef.current?.currentTime || 0;
+      });
+
+      audioRef.current.addEventListener('pause', () => {
+        playStartTimeRef.current = null;
       });
     }
 

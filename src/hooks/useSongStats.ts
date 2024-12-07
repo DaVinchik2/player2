@@ -3,8 +3,7 @@ import { Song } from '../types/music';
 import { 
   isLikedSong, 
   toggleLikedSong, 
-  getPlayCount, 
-  incrementPlayCount 
+  getPlayCount
 } from '../utils/storage';
 
 export const useSongStats = (song: Song) => {
@@ -21,11 +20,6 @@ export const useSongStats = (song: Song) => {
     setIsLiked(newLikedState);
   };
 
-  const handlePlay = () => {
-    incrementPlayCount(song.id);
-    setLocalPlays(getPlayCount(song.id));
-  };
-
   const totalPlays = song.plays + localPlays;
   const totalLikes = song.likes + (isLiked ? 1 : 0);
 
@@ -33,7 +27,6 @@ export const useSongStats = (song: Song) => {
     isLiked,
     totalPlays,
     totalLikes,
-    handleLike,
-    handlePlay
+    handleLike
   };
 };

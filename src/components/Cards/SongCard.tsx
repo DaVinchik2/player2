@@ -17,15 +17,13 @@ export const SongCard: React.FC<SongCardProps> = ({
   isCurrentSong = false,
   onPlay 
 }) => {
-  const { isLiked, totalPlays, totalLikes, handleLike, handlePlay } = useSongStats(song);
-
-  const handleClick = () => {
-    handlePlay();
-    onPlay();
-  };
+  const { isLiked, totalPlays, totalLikes, handleLike } = useSongStats(song);
 
   return (
-    <div className="relative group">
+    <div 
+      className="relative group cursor-pointer"
+      onClick={onPlay}
+    >
       <div className="aspect-square overflow-hidden rounded-lg">
         <img
           src={song.coverUrl}
@@ -33,16 +31,6 @@ export const SongCard: React.FC<SongCardProps> = ({
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity">
-          <button
-            onClick={handleClick}
-            className="absolute bottom-4 right-4 p-3 bg-white/10 backdrop-blur-md rounded-full text-white hover:bg-white/20 transition-colors"
-          >
-            {isCurrentSong && isPlaying ? (
-              <Pause size={20} />
-            ) : (
-              <Play size={20} fill="currentColor" />
-            )}
-          </button>
           <button
             onClick={(e) => {
               e.stopPropagation();
