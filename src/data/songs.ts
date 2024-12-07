@@ -23,4 +23,16 @@ export const songs: Song[] = [
     plays: 13578,
     likes: 2215
   }
+  ,
+  {
+    id: '3',
+    title: 'Bada Boom',
+    artist: 'AI Creator',
+    genre: 'pop,  electro,  house,  female vocalist',
+    coverUrl: 'https://cdn2.suno.ai/image_8def9afe-dffd-4ec9-b55e-c292c3febdbf.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/8def9afe-dffd-4ec9-b55e-c292c3febdbf.mp3',
+    duration: 209,
+    plays: 9818,
+    likes: 4911
+  }
 ];
