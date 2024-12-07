@@ -64,7 +64,7 @@ export const SongCard: React.FC<SongCardProps> = ({
         <h3 className={`font-medium truncate ${isCurrentSong ? 'text-green-500' : 'text-white'}`}>
           {song.title}
         </h3>
-        <p className="text-sm text-gray-400 truncate">{song.genre}</p>
+        <p className="text-sm text-gray-400">{song.genre}</p>
         <div className="flex items-center gap-4 text-sm text-gray-400">
           <div className="flex items-center gap-1">
             <Play size={14} />
