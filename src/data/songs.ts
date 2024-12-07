@@ -7,7 +7,7 @@ export const songs: Song[] = [
     artist: 'Georg',
     genre: 'nostalgic acoustic folk',
     coverUrl: 'https://cdn2.suno.ai/bcc7137c-4b55-404d-a2dc-baacebab0d4d_63985270.jpeg',
-    audioUrl: 'https://s3.eu-central-1.wasabisys.com/audio.com.audio/transcoding/55/03/1768481625420355-1768481626392127-1768481865996188.mp3?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=W7IA3NSYSOQIKLY9DEVC%2F20241203%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20241203T035440Z&X-Amz-SignedHeaders=host&X-Amz-Expires=518400&X-Amz-Signature=e63b21984fbe090b6a712b6f95ff07d2c477613338d18c508cdfca4514f00696',
+    audioUrl: 'https://cdn1.suno.ai/9574d25d-b11e-4f4d-a2c1-435fdc6299af.mp3',
     duration: 221,
     plays: 0,
     likes: 0
