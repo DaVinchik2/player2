@@ -2,6 +2,17 @@ import { Song } from '../types/music';
 
 export const songs: Song[] = [
   {
+    id: '5',
+    title: 'Hot Room (v2)',
+    artist: 'AI Creator',
+    genre: 'Rhythmical Lyrical heavy rock opera, Eternal Anglican voice',
+    coverUrl: 'https://cdn2.suno.ai/image_a6f55cc3-445d-48a6-8c8e-bf50b9dc5258.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/a6f55cc3-445d-48a6-8c8e-bf50b9dc5258.mp3',
+    duration: 213,
+    plays: 862,
+    likes: 231
+  },
+  {
     id: '4',
     title: 'Теперь я свободен',
     artist: 'AI Creator',
