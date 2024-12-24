@@ -9,8 +9,8 @@ export const songs: Song[] = [
     coverUrl: 'https://cdn2.suno.ai/image_2cb18157-328e-452d-b93c-b6c4ae2d914a.jpeg?w=400&h=400&fit=crop',
     audioUrl: 'https://cdn1.suno.ai/a6db776a-9157-44e3-a1b6-157ad8720a42.mp3',
     duration: 120,
-    plays: 11014,
-    likes: 1547
+    plays: 1095,
+    likes: 163
   },
   {
     id: '3',
