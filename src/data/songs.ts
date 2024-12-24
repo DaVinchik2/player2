@@ -2,7 +2,18 @@ import { Song } from '../types/music';
 
 export const songs: Song[] = [
   {
-    id: '1',
+    id: '4',
+    title: 'Теперь я свободен',
+    artist: 'AI Creator',
+    genre: 'Rock opera, rock ballad',
+    coverUrl: 'https://cdn2.suno.ai/image_2cb18157-328e-452d-b93c-b6c4ae2d914a.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/a6db776a-9157-44e3-a1b6-157ad8720a42.mp3',
+    duration: 120,
+    plays: 11014,
+    likes: 1547
+  },
+  {
+    id: '3',
     title: 'Hot Room',
     artist: 'AI Creator',
     genre: 'Rock opera, rock ballad',
@@ -25,7 +36,7 @@ export const songs: Song[] = [
   }
   ,
   {
-    id: '3',
+    id: '1',
     title: 'Bada Boom',
     artist: 'AI Creator',
     genre: 'pop,  electro,  house,  female vocalist',
