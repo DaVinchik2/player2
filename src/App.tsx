@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Sidebar } from './components/Layout/Sidebar';
 import { SongCard } from './components/Cards/SongCard';
 import { PlayerBar } from './components/Player/PlayerBar';
@@ -19,6 +19,21 @@ function App() {
   } = useAudioPlayer();
 
   const { isOpen, toggleSidebar } = useSidebar();
+
+  // Handle shared song from URL parameters
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const sharedSongId = params.get('song');
+    
+    if (sharedSongId) {
+      const songToPlay = songs.find(song => song.id === sharedSongId);
+      if (songToPlay) {
+        handleSongSelect(songToPlay);
+      }
+      // Clean up URL without reloading the page
+      window.history.replaceState({}, '', window.location.pathname);
+    }
+  }, []);
 
   const handleNext = () => {
     if (!currentSong) return;
