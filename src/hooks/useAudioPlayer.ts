@@ -19,14 +19,13 @@ export const useAudioPlayer = () => {
         if (audioRef.current) {
           setCurrentTime(audioRef.current.currentTime);
           
-          // Increment play count after 5 seconds of playback
           if (
             playStartTimeRef.current && 
             audioRef.current.currentTime - playStartTimeRef.current >= 5 &&
             currentSong
           ) {
             incrementPlayCount(currentSong.id);
-            playStartTimeRef.current = null; // Reset to prevent multiple increments
+            playStartTimeRef.current = null;
           }
         }
       });
@@ -57,16 +56,14 @@ export const useAudioPlayer = () => {
   useEffect(() => {
     if (audioRef.current && currentSong) {
       audioRef.current.src = currentSong.audioUrl;
-      if (isPlaying) {
-        audioRef.current.play();
-      }
+      audioRef.current.play().catch(() => setIsPlaying(false));
     }
   }, [currentSong]);
 
   useEffect(() => {
     if (audioRef.current) {
       if (isPlaying) {
-        audioRef.current.play();
+        audioRef.current.play().catch(() => setIsPlaying(false));
       } else {
         audioRef.current.pause();
       }
@@ -99,8 +96,7 @@ export const useAudioPlayer = () => {
       handlePlayPause();
     } else {
       setCurrentSong(song);
-      setIsPlaying(false);
-      setCurrentTime(0);
+      setIsPlaying(true);
     }
   };
 
@@ -110,7 +106,7 @@ export const useAudioPlayer = () => {
     setCurrentTime(0);
     if (audioRef.current) {
       audioRef.current.currentTime = 0;
-      audioRef.current.play();
+      audioRef.current.play().catch(() => setIsPlaying(false));
     }
   };
 
