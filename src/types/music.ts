@@ -8,6 +8,7 @@ export interface Song {
   duration: number;
   plays: number;
   likes: number;
+  alert?: boolean;
 }
 
 export interface PlaylistType {

@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Play, Pause, Heart, Share2 } from 'lucide-react';
+import { Play, Pause, Heart, Share2, AlertCircle } from 'lucide-react';
 import { Song } from '../../types/music';
 import { formatDuration, formatNumber } from '../../utils/format';
 import { useSongStats } from '../../hooks/useSongStats';
 import { ShareModal } from '../Modal/ShareModal';
+import { AlertModal } from '../Modal/AlertModal';
 
 interface SongCardProps {
   song: Song;
@@ -20,6 +21,7 @@ export const SongCard: React.FC<SongCardProps> = ({
 }) => {
   const { isLiked, totalPlays, totalLikes, handleLike } = useSongStats(song);
   const [showShareModal, setShowShareModal] = useState(false);
+  const [showAlertModal, setShowAlertModal] = useState(false);
 
   return (
     <>
@@ -35,6 +37,17 @@ export const SongCard: React.FC<SongCardProps> = ({
           />
           <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity">
             <div className="absolute top-4 right-4 flex items-center gap-2">
+              {song.alert && (
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setShowAlertModal(true);
+                  }}
+                  className="p-2 rounded-full bg-black/20 backdrop-blur-sm text-red-500"
+                >
+                  <AlertCircle size={20} />
+                </button>
+              )}
               <button
                 onClick={(e) => {
                   e.stopPropagation();
@@ -62,6 +75,17 @@ export const SongCard: React.FC<SongCardProps> = ({
         <div className="mt-3 space-y-1">
           <div className="flex items-center justify-between">
             <span className="text-sm text-gray-400">{formatDuration(song.duration)}</span>
+            {song.alert && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setShowAlertModal(true);
+                }}
+                className="text-red-500 hover:text-red-400"
+              >
+                <AlertCircle size={16} />
+              </button>
+            )}
           </div>
           <h3 className={`font-medium truncate ${isCurrentSong ? 'text-green-500' : 'text-white'}`}>
             {song.title}
@@ -84,6 +108,11 @@ export const SongCard: React.FC<SongCardProps> = ({
         isOpen={showShareModal}
         onClose={() => setShowShareModal(false)}
         song={song}
+      />
+
+      <AlertModal
+        isOpen={showAlertModal}
+        onClose={() => setShowAlertModal(false)}
       />
     </>
   );

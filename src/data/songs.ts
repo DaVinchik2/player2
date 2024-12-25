@@ -32,7 +32,8 @@ export const songs: Song[] = [
     audioUrl: 'https://storage.googleapis.com/udio-artifacts-c33fe3ba-3ffe-471f-92c8-5dfef90b3ea3/samples/9e8db383032d4122817977df3fc134be/1/Echoes%2520of%2520the%2520Violine%2520ext%2520v2.1.1.2.1.2.1.mp3',
     duration: 218,
     plays: 6322,
-    likes: 321
+    likes: 321,
+    alert: true
   },
   {
     id: '10',
@@ -43,7 +44,8 @@ export const songs: Song[] = [
     audioUrl: 'https://storage.googleapis.com/udio-artifacts-c33fe3ba-3ffe-471f-92c8-5dfef90b3ea3/samples/63ed5792f37b444497c7526041e6a2fe/1/%25C3%2590%25C2%2593%25C3%2591%25C2%2580%25C3%2590%25C2%25BE%25C3%2590%25C2%25B7%25C3%2590%25C2%25BE%25C3%2590%25C2%25B2%25C3%2590%25C2%25B0%25C3%2591%25C2%258F%2520%25C3%2590%25C2%25A1%25C3%2590%25C2%25B8%25C3%2590%25C2%25BC%25C3%2591%25C2%2584%25C3%2590%25C2%25BE%25C3%2590%25C2%25BD%25C3%2590%25C2%25B8%25C3%2591%25C2%258F%2520ext%2520v1.1.1.1.1.mp3',
     duration: 195,
     plays: 5724,
-    likes: 187
+    likes: 187,
+    alert: true
   },
   {
     id: '9',
@@ -54,7 +56,8 @@ export const songs: Song[] = [
     audioUrl: 'https://storage.googleapis.com/udio-artifacts-c33fe3ba-3ffe-471f-92c8-5dfef90b3ea3/samples/ae8f04cebf9445198712a82f2e59de86/2/%25C3%2590%25C2%259A%25C3%2591%25C2%2580%25C3%2591%25C2%2583%25C3%2590%25C2%25B3%25C3%2590%25C2%25BE%25C3%2590%25C2%25BC%2520%25C3%2590%25C2%2597%25C3%2590%25C2%25B0%25C3%2590%25C2%25B2%25C3%2590%25C2%25B5%25C3%2591%25C2%2580%25C3%2591%25C2%2582%25C3%2590%25C2%25B5%25C3%2590%25C2%25BB%25C3%2590%25C2%25BE%25C3%2591%25C2%2581%25C3%2591%25C2%258C%2520ext%2520v1.2.1.2.1.2.mp3',
     duration: 228,
     plays: 3177,
-    likes: 261
+    likes: 261,
+    alert: true
   },
   {
     id: '8',
@@ -65,18 +68,20 @@ export const songs: Song[] = [
     audioUrl: 'https://storage.googleapis.com/udio-artifacts-c33fe3ba-3ffe-471f-92c8-5dfef90b3ea3/samples/4b39d01768144493a502aae67dec168e/2/Whisper%2520of%2520an%2520Angel%2520ext%2520v1.2.2.2.2.2.1.2.2.mp3',
     duration: 327,
     plays: 8310,
-    likes: 648
+    likes: 648,
+    alert: true
   },
   {
     id: '7',
     title: 'Краски в лужах',
     artist: 'AI Creator',
     genre: 'angelic voice, dance-pop, dance, Serena, synth serena, synthwave',
-    coverUrl: 'https://imagedelivery.net/C9yUr1FL21Q6JwfYYh2ozQ/b74de85b-26e6-449c-fbe9-1ce0ecec6a00/width=256,quality=75',
+    coverUrl: 'https://cdn2.suno.ai/d3b7152d-6877-4fbe-bdde-afd72e5716ea_9a874c46.jpeg',
     audioUrl: 'https://storage.googleapis.com/udio-artifacts-c33fe3ba-3ffe-471f-92c8-5dfef90b3ea3/samples/20e956f1b1054f24895c25a7412f121d/1/The%2520Untitled.mp3',
     duration: 256,
     plays: 1049,
-    likes: 213
+    likes: 213,
+    alert: true
   },
   {
     id: '6',
