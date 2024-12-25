@@ -2,6 +2,17 @@ import { Song } from '../types/music';
 
 export const songs: Song[] = [ 
   {
+    id: '7',
+    title: 'Краски в лужах',
+    artist: 'AI Creator',
+    genre: 'angelic voice, dance-pop, dance, Serena, synth serena, synthwave',
+    coverUrl: 'https://imagedelivery.net/C9yUr1FL21Q6JwfYYh2ozQ/b74de85b-26e6-449c-fbe9-1ce0ecec6a00/width=256,quality=75',
+    audioUrl: 'https://storage.googleapis.com/udio-artifacts-c33fe3ba-3ffe-471f-92c8-5dfef90b3ea3/samples/20e956f1b1054f24895c25a7412f121d/1/The%2520Untitled.mp3',
+    duration: 256,
+    plays: 1049,
+    likes: 213
+  },
+  {
     id: '6',
     title: 'Новогодняя',
     artist: 'AI Creator',
