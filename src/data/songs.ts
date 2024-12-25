@@ -2,6 +2,39 @@ import { Song } from '../types/music';
 
 export const songs: Song[] = [ 
   {
+    id: '13',
+    title: 'Воины света (энергетикам посвящается)',
+    artist: 'AI Creator',
+    genre: 'Heroic rock ballad,  powerful vocals,  driving guitars,  anthemic',
+    coverUrl: 'https://cdn2.suno.ai/image_fa76e20f-dfce-4bf3-ad3f-25c7a1c5e0ca.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/fa76e20f-dfce-4bf3-ad3f-25c7a1c5e0ca.mp3',
+    duration: 177,
+    plays: 5791,
+    likes: 641
+  },
+  {
+    id: '12',
+    title: 'Loli Pop',
+    artist: 'AI Creator',
+    genre: 'drum and bass,  dance pop, violin, minor, metal',
+    coverUrl: 'https://cdn2.suno.ai/image_8c0f3cfd-34f2-4200-89bb-4be2a52f64f2.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/8c0f3cfd-34f2-4200-89bb-4be2a52f64f2.mp3',
+    duration: 199,
+    plays: 2121,
+    likes: 456
+  },
+  {
+    id: '11',
+    title: 'Эхо скрипки',
+    artist: 'AI Creator',
+    genre: 'drum and bass,  dance pop, violin, minor, metal',
+    coverUrl: 'https://cdn2.suno.ai/image_large_9b013808-f57b-4e51-a526-ef714357cd9b.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://storage.googleapis.com/udio-artifacts-c33fe3ba-3ffe-471f-92c8-5dfef90b3ea3/samples/9e8db383032d4122817977df3fc134be/1/Echoes%2520of%2520the%2520Violine%2520ext%2520v2.1.1.2.1.2.1.mp3',
+    duration: 218,
+    plays: 6322,
+    likes: 321
+  },
+  {
     id: '10',
     title: 'ака Ария - Ария о Винни пухе и Пяточке',
     artist: 'AI Creator',
@@ -28,7 +61,7 @@ export const songs: Song[] = [
     title: 'Вечность (любимой жене посвящается)',
     artist: 'AI Creator',
     genre: 'synthwave, dance, EDM, pop, Руки Вверх, nostalgic, male vocalist',
-    coverUrl: 'https://cdn2.suno.ai/image_4a9864a5-fd12-4448-92ce-7e2f2b1fdc6d.jpeg?w=400&h=400&fit=crop',
+    coverUrl: 'https://cdn2.suno.ai/a113e567-c0e4-4d54-819e-383b42276e3e_9cc9ce83.jpeg?w=400&h=400&fit=crop',
     audioUrl: 'https://storage.googleapis.com/udio-artifacts-c33fe3ba-3ffe-471f-92c8-5dfef90b3ea3/samples/4b39d01768144493a502aae67dec168e/2/Whisper%2520of%2520an%2520Angel%2520ext%2520v1.2.2.2.2.2.1.2.2.mp3',
     duration: 327,
     plays: 8310,
