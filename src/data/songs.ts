@@ -2,6 +2,39 @@ import { Song } from '../types/music';
 
 export const songs: Song[] = [ 
   {
+    id: '10',
+    title: 'ака Ария - Ария о Винни пухе и Пяточке',
+    artist: 'AI Creator',
+    genre: 'rock, heavy metal, rock opera, duet, группа Ария',
+    coverUrl: 'https://cdn2.suno.ai/image_c2099b0c-02f8-4590-8976-20ccb3e1e83f.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://storage.googleapis.com/udio-artifacts-c33fe3ba-3ffe-471f-92c8-5dfef90b3ea3/samples/63ed5792f37b444497c7526041e6a2fe/1/%25C3%2590%25C2%2593%25C3%2591%25C2%2580%25C3%2590%25C2%25BE%25C3%2590%25C2%25B7%25C3%2590%25C2%25BE%25C3%2590%25C2%25B2%25C3%2590%25C2%25B0%25C3%2591%25C2%258F%2520%25C3%2590%25C2%25A1%25C3%2590%25C2%25B8%25C3%2590%25C2%25BC%25C3%2591%25C2%2584%25C3%2590%25C2%25BE%25C3%2590%25C2%25BD%25C3%2590%25C2%25B8%25C3%2591%25C2%258F%2520ext%2520v1.1.1.1.1.mp3',
+    duration: 195,
+    plays: 5724,
+    likes: 187
+  },
+  {
+    id: '9',
+    title: 'ака КиШ - Мойдодыр',
+    artist: 'AI Creator',
+    genre: 'Folk punk, Horror punk, Король и Шут, КиШ, Korol & Shut, Михаил Горшенев',
+    coverUrl: 'https://cdn2.suno.ai/f4887048-c3eb-4334-955e-5e99dfe5c07d_178b1af5.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://storage.googleapis.com/udio-artifacts-c33fe3ba-3ffe-471f-92c8-5dfef90b3ea3/samples/ae8f04cebf9445198712a82f2e59de86/2/%25C3%2590%25C2%259A%25C3%2591%25C2%2580%25C3%2591%25C2%2583%25C3%2590%25C2%25B3%25C3%2590%25C2%25BE%25C3%2590%25C2%25BC%2520%25C3%2590%25C2%2597%25C3%2590%25C2%25B0%25C3%2590%25C2%25B2%25C3%2590%25C2%25B5%25C3%2591%25C2%2580%25C3%2591%25C2%2582%25C3%2590%25C2%25B5%25C3%2590%25C2%25BB%25C3%2590%25C2%25BE%25C3%2591%25C2%2581%25C3%2591%25C2%258C%2520ext%2520v1.2.1.2.1.2.mp3',
+    duration: 228,
+    plays: 3177,
+    likes: 261
+  },
+  {
+    id: '8',
+    title: 'Вечность (любимой жене посвящается)',
+    artist: 'AI Creator',
+    genre: 'synthwave, dance, EDM, pop, Руки Вверх, nostalgic, male vocalist',
+    coverUrl: 'https://cdn2.suno.ai/image_4a9864a5-fd12-4448-92ce-7e2f2b1fdc6d.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://storage.googleapis.com/udio-artifacts-c33fe3ba-3ffe-471f-92c8-5dfef90b3ea3/samples/4b39d01768144493a502aae67dec168e/2/Whisper%2520of%2520an%2520Angel%2520ext%2520v1.2.2.2.2.2.1.2.2.mp3',
+    duration: 327,
+    plays: 8310,
+    likes: 648
+  },
+  {
     id: '7',
     title: 'Краски в лужах',
     artist: 'AI Creator',
