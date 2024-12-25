@@ -99,8 +99,18 @@ export const useAudioPlayer = () => {
       handlePlayPause();
     } else {
       setCurrentSong(song);
-      setIsPlaying(true);
+      setIsPlaying(false);
       setCurrentTime(0);
+    }
+  };
+
+  const playSelectedSong = (song: Song) => {
+    setCurrentSong(song);
+    setIsPlaying(true);
+    setCurrentTime(0);
+    if (audioRef.current) {
+      audioRef.current.currentTime = 0;
+      audioRef.current.play();
     }
   };
 
@@ -112,6 +122,7 @@ export const useAudioPlayer = () => {
     handlePlayPause,
     handleSeek,
     handleVolumeChange,
-    handleSongSelect
+    handleSongSelect,
+    playSelectedSong
   };
 };

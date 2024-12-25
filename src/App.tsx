@@ -1,7 +1,8 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Sidebar } from './components/Layout/Sidebar';
 import { SongCard } from './components/Cards/SongCard';
 import { PlayerBar } from './components/Player/PlayerBar';
+import { WelcomeModal } from './components/Modal/WelcomeModal';
 import { songs } from './data/songs';
 import { useAudioPlayer } from './hooks/useAudioPlayer';
 import { useSidebar } from './hooks/useSidebar';
@@ -15,10 +16,13 @@ function App() {
     handlePlayPause,
     handleSeek,
     handleVolumeChange,
-    handleSongSelect
+    handleSongSelect,
+    playSelectedSong
   } = useAudioPlayer();
 
   const { isOpen, toggleSidebar } = useSidebar();
+  const [showWelcomeModal, setShowWelcomeModal] = useState(false);
+  const [sharedSong, setSharedSong] = useState<typeof songs[0] | null>(null);
 
   // Handle shared song from URL parameters
   useEffect(() => {
@@ -28,6 +32,8 @@ function App() {
     if (sharedSongId) {
       const songToPlay = songs.find(song => song.id === sharedSongId);
       if (songToPlay) {
+        setSharedSong(songToPlay);
+        setShowWelcomeModal(true);
         handleSongSelect(songToPlay);
       }
       // Clean up URL without reloading the page
@@ -84,6 +90,17 @@ function App() {
           onPrevious={handlePrevious}
           onSeek={handleSeek}
           onVolumeChange={handleVolumeChange}
+        />
+      )}
+
+      {sharedSong && (
+        <WelcomeModal
+          isOpen={showWelcomeModal}
+          onClose={() => setShowWelcomeModal(false)}
+          song={sharedSong}
+          onPlay={() => {
+            playSelectedSong(sharedSong);
+          }}
         />
       )}
     </div>
