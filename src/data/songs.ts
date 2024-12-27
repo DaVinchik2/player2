@@ -2,6 +2,39 @@ import { Song } from '../types/music';
 
 export const songs: Song[] = [ 
   {
+    id: '16',
+    title: 'Лирическая 2 (v.2)',
+    artist: 'AI Creator',
+    genre: 'High-energy K-Pop track with a viral hook,  fast tempo,  heavy electronic influences,  synth melodies,  siren sound effects,  powerful vocals,  dance beat',
+    coverUrl: 'https://cdn2.suno.ai/image_large_d852c1dd-5034-47be-a23f-cd56667b0e6a.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/d852c1dd-5034-47be-a23f-cd56667b0e6a.mp3',
+    duration: 203,
+    plays: 4298,
+    likes: 581
+  },
+  {
+    id: '15',
+    title: 'Лирическая 2 (v.1)',
+    artist: 'AI Creator',
+    genre: 'High-energy K-Pop track with a viral hook,  fast tempo,  heavy electronic influences,  synth melodies,  siren sound effects,  powerful vocals,  dance beat',
+    coverUrl: 'https://cdn2.suno.ai/image_d852c1dd-5034-47be-a23f-cd56667b0e6a.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/849edb82-b6f0-4e0d-8b4b-023b3bf4726b.mp3',
+    duration: 189,
+    plays: 2594,
+    likes: 862
+  },
+  {
+    id: '14',
+    title: 'Лирическая',
+    artist: 'AI Creator',
+    genre: 'Atmospheric rock, melancholic, reflective, with a touch of nostalgia, simple instrumentation',
+    coverUrl: 'https://cdn2.suno.ai/image_7ac4f3d6-3dee-4922-ad50-1159c41ce878.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/7ac4f3d6-3dee-4922-ad50-1159c41ce878.mp3',
+    duration: 192,
+    plays: 4781,
+    likes: 364
+  },
+  {
     id: '13',
     title: 'Воины света (энергетикам посвящается)',
     artist: 'AI Creator',
@@ -20,7 +53,7 @@ export const songs: Song[] = [
     coverUrl: 'https://cdn2.suno.ai/image_8c0f3cfd-34f2-4200-89bb-4be2a52f64f2.jpeg?w=400&h=400&fit=crop',
     audioUrl: 'https://cdn1.suno.ai/8c0f3cfd-34f2-4200-89bb-4be2a52f64f2.mp3',
     duration: 199,
-    plays: 2121,
+    plays: 5321,
     likes: 456
   },
   {
@@ -79,8 +112,8 @@ export const songs: Song[] = [
     coverUrl: 'https://cdn2.suno.ai/d3b7152d-6877-4fbe-bdde-afd72e5716ea_9a874c46.jpeg',
     audioUrl: 'https://storage.googleapis.com/udio-artifacts-c33fe3ba-3ffe-471f-92c8-5dfef90b3ea3/samples/20e956f1b1054f24895c25a7412f121d/1/The%2520Untitled.mp3',
     duration: 256,
-    plays: 1049,
-    likes: 213,
+    plays: 5449,
+    likes: 411,
     alert: true
   },
   {
