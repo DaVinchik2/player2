@@ -8,7 +8,7 @@ export const songs: Song[] = [
     genre: 'Festive Eastern European party song, upbeat tempo, accordion, brass, percussion, catchy melody, repetitive chorus, joyful and energetic',
     coverUrl: 'https://cdn2.suno.ai/image_bff0a0f1-9207-49a1-99d4-343a037f61f4.jpeg?w=400&h=400&fit=crop',
     audioUrl: 'https://cdn1.suno.ai/bff0a0f1-9207-49a1-99d4-343a037f61f4.mp3',
-    duration: 207,
+    duration: 147,
     plays: 9341,
     likes: 3178
   },
