@@ -2,6 +2,17 @@ import { Song } from '../types/music';
 
 export const songs: Song[] = [ 
   {
+    id: '18',
+    title: 'ака Nightwish - Ария о Винни пухе и Пяточке',
+    artist: 'AI Creator',
+    genre: 'Epic metal opera',
+    coverUrl: 'https://cdn2.suno.ai/image_57300b45-9728-483a-8eaf-3390ec0833b1.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/849de962-7a82-48ab-9511-434cfe3598a9.mp3',
+    duration: 228,
+    plays: 7487,
+    likes: 1243
+  },
+  {
     id: '17',
     title: 'Новогодняя 2',
     artist: 'AI Creator',
