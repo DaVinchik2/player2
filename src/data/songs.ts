@@ -2,6 +2,39 @@ import { Song } from '../types/music';
 
 export const songs: Song[] = [ 
   {
+    id: '21',
+    title: '(18+) Мама',
+    artist: 'AI Creator',
+    genre: 'Dark acoustic metal ballad, deep male vocals, fingerpicked guitar, piano, bass, slow melodic instrumental, aggressive mood,',
+    coverUrl: 'https://cdn2.suno.ai/image_large_36484b34-d38a-40ef-8fb3-4151d5849753.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/36484b34-d38a-40ef-8fb3-4151d5849753.mp3',
+    duration: 186,
+    plays: 4815,
+    likes: 946
+  },
+  {
+    id: '20',
+    title: 'С Новым годом',
+    artist: 'AI Creator',
+    genre: '90s style acoustic pop ballad, girls band, moderate tempo, prominent acoustic guitar, strings, light percussion, flute melodies, layered female vocals with harmonies, nostalgic atmosphere,',
+    coverUrl: 'https://cdn2.suno.ai/image_large_e6d4ff5a-57e1-4007-bd70-860fb80267ce.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/0b1d3477-58e7-4e9c-8afa-39dd92052c46.mp3',
+    duration: 179,
+    plays: 7348,
+    likes: 2846
+  },
+  {
+    id: '19',
+    title: 'С Новым годом',
+    artist: 'AI Creator',
+    genre: 'Nostalgic pop ballad, moderate tempo, piano, strings, acoustic guitar, male and female vocals with harmonies, emotional melody',
+    coverUrl: 'https://cdn2.suno.ai/image_large_6c1762b6-f00f-4603-ae6c-bb7aa2960a0c.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/6c1762b6-f00f-4603-ae6c-bb7aa2960a0c.mp3',
+    duration: 240,
+    plays: 9115,
+    likes: 3581
+  },
+  {
     id: '18',
     title: 'ака Nightwish - Ария о Винни пухе и Пяточке',
     artist: 'AI Creator',
