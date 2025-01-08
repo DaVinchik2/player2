@@ -14,7 +14,7 @@ export const songs: Song[] = [
   },
   {
     id: '20',
-    title: 'С Новым годом',
+    title: 'Да здравствует вечность',
     artist: 'AI Creator',
     genre: '90s style acoustic pop ballad, girls band, moderate tempo, prominent acoustic guitar, strings, light percussion, flute melodies, layered female vocals with harmonies, nostalgic atmosphere,',
     coverUrl: 'https://cdn2.suno.ai/image_large_e6d4ff5a-57e1-4007-bd70-860fb80267ce.jpeg?w=400&h=400&fit=crop',
