@@ -8,9 +8,9 @@ export const songs: Song[] = [
     genre: 'Power ballad, soul, 1950s/60s, lush orchestration (strings, piano), emotive tenor vocals, romantic/yearning mood, themes of lost love & longing, building dynamics to a powerful climax, doo-wop and R&B',
     coverUrl: 'https://cdn2.suno.ai/image_ed52a687-8451-4a73-b2c6-4a5f37afd705.jpeg?w=400&h=400&fit=crop',
     audioUrl: 'https://cdn1.suno.ai/5f042a63-1f6c-4394-9da1-6f0787c45ea1.mp3',
-    duration: 195,
-    plays: 6274,
-    likes: 2142
+    duration: 189,
+    plays: 12401,
+    likes: 3641
   },
   {
     id: '21',
