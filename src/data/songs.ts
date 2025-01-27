@@ -2,15 +2,26 @@ import { Song } from '../types/music';
 
 export const songs: Song[] = [ 
   {
-    id: '21',
-    title: '(18+) Мама',
+    id: '22',
+    title: 'Не скованные',
     artist: 'AI Creator',
-    genre: 'Dark acoustic metal ballad, deep male vocals, fingerpicked guitar, piano, bass, slow melodic instrumental, aggressive mood,',
-    coverUrl: 'https://cdn2.suno.ai/image_large_36484b34-d38a-40ef-8fb3-4151d5849753.jpeg?w=400&h=400&fit=crop',
-    audioUrl: 'https://cdn1.suno.ai/36484b34-d38a-40ef-8fb3-4151d5849753.mp3',
-    duration: 186,
-    plays: 4815,
-    likes: 946
+    genre: 'Power ballad, soul, 1950s/60s, lush orchestration (strings, piano), emotive tenor vocals, romantic/yearning mood, themes of lost love & longing, building dynamics to a powerful climax, doo-wop and R&B',
+    coverUrl: 'https://cdn2.suno.ai/image_ed52a687-8451-4a73-b2c6-4a5f37afd705.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/5f042a63-1f6c-4394-9da1-6f0787c45ea1.mp3',
+    duration: 195,
+    plays: 6274,
+    likes: 2142
+  },
+  {
+    id: '21',
+    title: 'Твист',
+    artist: 'AI Creator',
+    genre: '60s,  fast tempo,  rock and roll,  guitar,  drums,  saxophone,  upbeat,  teenage love,',
+    coverUrl: 'https://cdn2.suno.ai/image_b52c3dfc-60e6-4130-b45a-7b10e66d60ca.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/b52c3dfc-60e6-4130-b45a-7b10e66d60ca.mp3',
+    duration: 195,
+    plays: 6274,
+    likes: 2142
   },
   {
     id: '20',
