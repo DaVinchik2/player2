@@ -1,6 +1,18 @@
 import { Song } from '../types/music';
 
-export const songs: Song[] = [ 
+export const songs: Song[] = [
+  {
+    id: '23,
+    title: 'Молитва о близких',
+    artist: 'AI Creator',
+    genre: 'dream pop, sonic textures, synthesizer, male deep vocal, emotional',
+    coverUrl: 'https://api.riffusion.com/storage/v1/object/public/riffs/df733eb1-cfb2-4886-95ea-99553f35ae39/image/83083b6f-97b8-45de-8dbc-e5e5f5bea6e1.jpg?w=400&h=400&fit=crop',
+    audioUrl: 'https://api.riffusion.com/storage/v1/object/public/riffs/df733eb1-cfb2-4886-95ea-99553f35ae39/audio/83083b6f-97b8-45de-8dbc-e5e5f5bea6e1.m4a',
+    duration: 206,
+    plays: 11571,
+    likes: 4180
+    alert: true
+  },
   {
     id: '22',
     title: 'Не скованные',
