@@ -2,7 +2,7 @@ import { Song } from '../types/music';
 
 export const songs: Song[] = [
   {
-    id: '23,
+    id: '23',
     title: 'Молитва о близких',
     artist: 'AI Creator',
     genre: 'dream pop, sonic textures, synthesizer, male deep vocal, emotional',
