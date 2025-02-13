@@ -10,7 +10,7 @@ export const songs: Song[] = [
     audioUrl: 'https://api.riffusion.com/storage/v1/object/public/riffs/df733eb1-cfb2-4886-95ea-99553f35ae39/audio/83083b6f-97b8-45de-8dbc-e5e5f5bea6e1.m4a',
     duration: 206,
     plays: 11571,
-    likes: 4180
+    likes: 4180,
     alert: true
   },
   {
