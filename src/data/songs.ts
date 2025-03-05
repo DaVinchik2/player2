@@ -2,6 +2,18 @@ import { Song } from '../types/music';
 
 export const songs: Song[] = [
   {
+    id: '24',
+    title: 'Танцую в Прада',
+    artist: 'AI Creator',
+    genre: 'Ethereal Vocals, heavy drum beat, 120bpm dance moody dark, female vocals, spicy drop',
+    coverUrl: 'https://api.riffusion.com/storage/v1/object/public/riffs/df733eb1-cfb2-4886-95ea-99553f35ae39/image/364a1853-ead8-4fbf-a414-0fe158e8c350.jpg?w=400&h=400&fit=crop',
+    audioUrl: 'https://api.riffusion.com/storage/v1/object/public/riffs/df733eb1-cfb2-4886-95ea-99553f35ae39/audio/28f91fc1-5bf0-4124-9e99-eb0f3f7b17b2.m4a',
+    duration: 176,
+    plays: 8457,
+    likes: 3155,
+    alert: true
+  },
+  {
     id: '23',
     title: 'Молитва о близких',
     artist: 'AI Creator',
