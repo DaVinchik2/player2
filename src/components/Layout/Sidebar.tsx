@@ -43,7 +43,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggle }) => {
           )}
 
           <a href="/" className="flex items-center gap-2 mb-12 mt-12 md:mt-0">
-            <span className="text-2xl font-bold text-white">AI Creator</span>
+            <span className="text-2xl font-bold text-white">MusCreator</span>
           </a>
 
           <nav className="flex-1">
