@@ -118,7 +118,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggle }) => {
           </p>
           <div className="flex justify-center">
             <a
-              href="https://t.me/San4os_Alehander"
+              href="https://t.me/MusCreator"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#0088cc] hover:bg-[#0099dd] text-white rounded-lg transition-colors text-lg font-medium w-full max-w-md"
