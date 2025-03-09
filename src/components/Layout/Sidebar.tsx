@@ -100,7 +100,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggle }) => {
             <h3 className="text-white font-semibold">Стоимость:</h3>
             <ul className="list-disc list-inside space-y-1">
               <li>Работа "под ключ" - мы пишем и стих и музыку: 5000 рублей</li>
-              <li>Оживить Ваш стих - вы даете текст, а мы пишем музыку: 3000 рублей</li>
+              <li>Оживить Ваш стих - вы даете текст, а мы пишем музыку: 4000 рублей</li>
               <li>Музыка для вашего проекта - музыка без авторского права: 8000 рублей</li>
             </ul>
           </div>
