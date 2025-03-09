@@ -124,7 +124,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggle }) => {
               className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#0088cc] hover:bg-[#0099dd] text-white rounded-lg transition-colors text-lg font-medium w-full max-w-md"
             >
               <MessageCircle size={24} />
-              @San4os_Alehander
+              @MusCreator
             </a>
           </div>
           <p className="text-sm text-gray-400 mt-4 text-center">
