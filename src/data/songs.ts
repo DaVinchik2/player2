@@ -2,6 +2,18 @@ import { Song } from '../types/music';
 
 export const songs: Song[] = [
   {
+    id: '27',
+    title: 'Сирота',
+    artist: 'MusCreator',
+    genre: 'Emotional rap with a melancholic tone, transitioning to a powerful and soaring melodic female vocal chorus with a strong instrumental backdrop (drums, bass, strings), Reflects longing and hope',
+    coverUrl: 'https://cdn2.suno.ai/image_large_e8519ef9-84db-4900-984f-ae76fcf7921d.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/e8519ef9-84db-4900-984f-ae76fcf7921d.mp3',
+    duration: 239,
+    plays: 16841,
+    likes: 6894,
+    alert: true
+  },
+  {
     id: '26',
     title: 'Теплый весенний вечер в Старобельске',
     artist: 'MusCreator',
@@ -9,8 +21,8 @@ export const songs: Song[] = [
     coverUrl: 'https://api.riffusion.com/storage/v1/object/public/riffs/df733eb1-cfb2-4886-95ea-99553f35ae39/image/bf4ef2e2-0ff2-4ab2-ac21-11b508d70ca3.jpg?w=400&h=400&fit=crop',
     audioUrl: 'https://api.riffusion.com/storage/v1/object/public/riffs/df733eb1-cfb2-4886-95ea-99553f35ae39/audio/bf4ef2e2-0ff2-4ab2-ac21-11b508d70ca3.m4a',
     duration: 207,
-    plays: 10743,
-    likes: 3581,
+    plays: 12343,
+    likes: 4583,
     alert: true
   },
   {
@@ -22,7 +34,7 @@ export const songs: Song[] = [
     audioUrl: 'https://api.riffusion.com/storage/v1/object/public/riffs/df733eb1-cfb2-4886-95ea-99553f35ae39/audio/701524a2-1d31-49b0-be69-fd97323bb4fc.m4a',
     duration: 190,
     plays: 14712,
-    likes: 5241,
+    likes: 6814,
     alert: true
   },
   {
@@ -33,8 +45,8 @@ export const songs: Song[] = [
     coverUrl: 'https://api.riffusion.com/storage/v1/object/public/riffs/df733eb1-cfb2-4886-95ea-99553f35ae39/image/364a1853-ead8-4fbf-a414-0fe158e8c350.jpg?w=400&h=400&fit=crop',
     audioUrl: 'https://api.riffusion.com/storage/v1/object/public/riffs/df733eb1-cfb2-4886-95ea-99553f35ae39/audio/28f91fc1-5bf0-4124-9e99-eb0f3f7b17b2.m4a',
     duration: 176,
-    plays: 8457,
-    likes: 3155,
+    plays: 12587,
+    likes: 5971,
     alert: true
   },
   {
@@ -45,8 +57,8 @@ export const songs: Song[] = [
     coverUrl: 'https://api.riffusion.com/storage/v1/object/public/riffs/df733eb1-cfb2-4886-95ea-99553f35ae39/image/83083b6f-97b8-45de-8dbc-e5e5f5bea6e1.jpg?w=400&h=400&fit=crop',
     audioUrl: 'https://api.riffusion.com/storage/v1/object/public/riffs/df733eb1-cfb2-4886-95ea-99553f35ae39/audio/83083b6f-97b8-45de-8dbc-e5e5f5bea6e1.m4a',
     duration: 206,
-    plays: 11571,
-    likes: 4180,
+    plays: 13748,
+    likes: 6941,
     alert: true
   },
   {
