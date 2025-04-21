@@ -2,6 +2,17 @@ import { Song } from '../types/music';
 
 export const songs: Song[] = [
   {
+    id: '28',
+    title: 'Хочу другого',
+    artist: 'MusCreator',
+    genre: 'Russian hip hop, Chorus, Ethereal female voice',
+    coverUrl: 'https://cdn2.suno.ai/image_large_442eb640-652a-4394-82e1-60a8c9b51df8.jpeg?w=400&h=400&fit=crop',
+    audioUrl: 'https://cdn1.suno.ai/ffc8f337-319c-4d8f-898a-f967c85dae86.mp3',
+    duration: 199,
+    plays: 4347,
+    likes: 681,    
+  },
+  {
     id: '27',
     title: 'Сирота',
     artist: 'MusCreator',
@@ -10,8 +21,7 @@ export const songs: Song[] = [
     audioUrl: 'https://cdn1.suno.ai/e8519ef9-84db-4900-984f-ae76fcf7921d.mp3',
     duration: 239,
     plays: 16841,
-    likes: 6894,
-    alert: true
+    likes: 6894,    
   },
   {
     id: '26',
